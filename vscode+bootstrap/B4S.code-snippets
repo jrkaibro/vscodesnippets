@@ -1,0 +1,110 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"B4S NAV": {
+	 	"prefix": "B4S-slide-navegation",
+	 	"body": [
+	 		"<nav class=\"site-navigation text-left ml-auto\" role=\"navigation\">",
+			 "<ul class=\"site-menu main-menu js-clone-nav ml-auto d-none d-lg-block\">",
+			 "<li class=\"active\"><a href=\"index.html\" class=\"nav-link\">Home</a></li>",
+			 "<li><a href=\"about.html\" class=\"nav-link\">About Us</a></li>",
+			 "<li><a href=\"causes.html\" class=\"nav-link\">Our Causes</a></li>",
+			 "<li><a href=\"blog.html\" class=\"nav-link\">Blog</a></li>",
+			 "<li><a href=\"contact.html\" class=\"nav-link\">Contact</a></li>",
+			 "</ul>",
+			 "</nav>",
+	 		"$2"
+	 	],
+	 	"description": "slide-navegation"
+	},
+	"B4S HEADERWARP": {
+		"prefix": "B4S-warpheader",
+		"body": [
+			"<div class=\"site-wrap\" id=\"home-section\">",
+			"<div class=\"site-mobile-menu site-navbar-target\">",
+			"<div class=\"site-mobile-menu-header\">",
+			"<div class=\"site-mobile-menu-close mt-3\">",
+			"<span class=\"icon-close2 js-menu-toggle\"></span>",
+			"</div>",
+			"</div>",
+			"<div class=\"site-mobile-menu-body\"></div>",
+			"</div>",
+			"<div class=\"bg-primary py-3 top-bar shadow d-none d-md-block\">",
+			"<div class=\"container\">",
+			"<div class=\"row\">",
+			"<div class=\"col-md-6 text-md-left pl-0\">",
+			"<a href=\"#\" class=\"pr-3 pl-0\">Home</a>",
+			"<a href=\"#\" class=\"p-3\">Events</a>",
+			"<a href=\"#\" class=\"p-3\">Become A Volunteer</a>",
+			"</div>",
+			"<div class=\"col-md-6 text-md-right\">",
+			"<a href=\"#\" class=\"p-3\"><span class=\"icon-twitter\"></span></a>",
+			"<a href=\"#\" class=\"p-3\"><span class=\"icon-facebook\"></span></a>",
+			"</div>",
+			"</div>",
+			"</div>",
+			"</div>",
+			"$2"
+		],
+		"description": "warp header"
+   },
+	"B4S HEADER": {
+		"prefix": "B4S-header",
+		"body": [
+			"<header class=\"site-navbar site-navbar-target bg-secondary shadow\" role=\"banner\">",
+			"<div class=\"container\">",
+			"<div class=\"row align-items-center position-relative\">",
+			"<div class=\"site-logo\">",
+			"<a href=\"index.html\" class=\"text-white\">Fundraiser</a>",
+			"</div>",
+			"<nav class=\"site-navigation text-left ml-auto\" role=\"navigation\">",
+			"<ul class=\"site-menu main-menu js-clone-nav ml-auto d-none d-lg-block\">",
+			"<li><a href=\"index.html\" class=\"nav-link\">Home</a></li>",
+			"<li><a href=\"about.html\" class=\"nav-link\">About Us</a></li>",
+			"<li><a href=\"causes.html\" class=\"nav-link\">Our Causes</a></li>",
+			"<li class=\"active\"><a href=\"blog.html\" class=\"nav-link\">Blog</a></li>",
+			"<li><a href=\"contact.html\" class=\"nav-link\">Contact</a></li>",
+			"</ul>",
+			"</nav>",
+			"<div class=\"ml-auto toggle-button d-inline-block d-lg-none\"><a href=\"#\" class=\"site-menu-toggle py-5 js-menu-toggle text-white\"><span class=\"icon-menu h3 text-white\"></span></a></div>",
+			"</div>",
+			"</div>",	
+			"</header>",
+		],
+		"description": "header"
+   },
+   "B4S COVER": {
+	"prefix": "B4S-Cover",
+	"body": [
+		"<div class=\"ftco-blocks-cover-1\">",
+		"<div class=\"ftco-cover-1 overlay\" style=\"background-image: url('images/hero_2.jpg')\">",
+		"<div class=\"container\">",
+		"<div class=\"row align-items-center justify-content-center\">",
+		"<div class=\"col-lg-6 text-center\">",
+		"<span class=\"d-block mb-3 text-white\" data-aos=\"fade-up\">Oct 09, 2019 <span class=\"mx-2 text-primary\">&bullet;</span> by James Miller <br> Adapted for Junior Kaibro</span>",
+		"<h1 class=\"mb-4 text-cursive h1\" data-aos=\"fade-up\" data-aos-delay=\"100\">Far far away, behind the word mountains</h1>",
+		"</div>",
+		"</div>",
+		"</div>",
+		"</div>",
+		"</div>",
+	],
+	"description": "header"
+}
+
+}
